@@ -1,0 +1,6 @@
+{
+  "name": "MedBridge QR — Ephemeral Zero-Knowledge EHR Bridge",
+  "description": "Zero-knowledge emergency clinical triage bridge with granular patient consent, ephemeral QR access tokens, paramedic intake portal, and immutable audit logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

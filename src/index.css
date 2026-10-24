@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #0f131c;
+  --color-surface-dim: #0f131c;
+  --color-surface-bright: #353942;
+  --color-surface-container-lowest: #0a0e16;
+  --color-surface-container-low: #181c24;
+  --color-surface-container: #1c2028;
+  --color-surface-container-high: #262a33;
+  --color-surface-container-highest: #31353e;
+  --color-on-surface: #dfe2ee;
+  --color-on-surface-variant: #bcc9cd;
+  --color-inverse-surface: #dfe2ee;
+  --color-inverse-on-surface: #2c3039;
+  --color-outline: #869397;
+  --color-outline-variant: #3d494c;
+  --color-surface-tint: #4cd7f6;
+  --color-primary: #4cd7f6;
+  --color-on-primary: #003640;
+  --color-primary-container: #06b6d4;
+  --color-on-primary-container: #00424f;
+  --color-inverse-primary: #00687a;
+  --color-secondary: #4edea3;
+  --color-on-secondary: #003824;
+  --color-secondary-container: #00a572;
+  --color-on-secondary-container: #00311f;
+  --color-tertiary: #ffb95f;
+  --color-on-tertiary: #472a00;
+  --color-tertiary-container: #e79400;
+  --color-on-tertiary-container: #563400;
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+  --color-primary-fixed: #acedff;
+  --color-primary-fixed-dim: #4cd7f6;
+  --color-on-primary-fixed: #001f26;
+  --color-on-primary-fixed-variant: #004e5c;
+  --color-secondary-fixed: #6ffbbe;
+  --color-secondary-fixed-dim: #4edea3;
+  --color-on-secondary-fixed: #002113;
+  --color-on-secondary-fixed-variant: #005236;
+  --color-tertiary-fixed: #ffddb8;
+  --color-tertiary-fixed-dim: #ffb95f;
+  --color-on-tertiary-fixed: #2a1700;
+  --color-on-tertiary-fixed-variant: #653e00;
+  --color-background: #0f131c;
+  --color-on-background: #dfe2ee;
+  --color-surface-variant: #31353e;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 0.75rem;
+  --spacing-space-lg: 1.25rem;
+  --spacing-space-xl: 2rem;
+  --spacing-margin: 1rem;
+  --spacing-margin-tablet: 1.5rem;
+  --spacing-margin-desktop: 2rem;
+  --spacing-gutter: 1rem;
+  --spacing-gutter-desktop: 1.5rem;
+
+  --font-display: Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body-md: Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body-sm: Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body-lg: Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-headline-sm: Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-headline-md: Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-headline-lg: Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-title-md: Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-code-md: 'JetBrains Mono', monospace;
+  --font-code-lg: 'JetBrains Mono', monospace;
+  --font-code-timer: 'JetBrains Mono', monospace;
+  --font-label-md: 'JetBrains Mono', monospace;
+  --font-label-sm: 'JetBrains Mono', monospace;
+}
+
+@layer utilities {
+  .font-display { font-family: 'Geist', sans-serif; }
+  .font-body-md { font-family: 'Geist', sans-serif; }
+  .font-body-sm { font-family: 'Geist', sans-serif; }
+  .font-body-lg { font-family: 'Geist', sans-serif; }
+  .font-headline-sm { font-family: 'Geist', sans-serif; }
+  .font-headline-md { font-family: 'Geist', sans-serif; }
+  .font-headline-lg { font-family: 'Geist', sans-serif; }
+  .font-title-md { font-family: 'Geist', sans-serif; }
+  .font-code-md { font-family: 'JetBrains Mono', monospace; }
+  .font-code-lg { font-family: 'JetBrains Mono', monospace; }
+  .font-code-timer { font-family: 'JetBrains Mono', monospace; }
+  .font-label-md { font-family: 'JetBrains Mono', monospace; }
+  .font-label-sm { font-family: 'JetBrains Mono', monospace; }
+
+  .text-display { font-size: 44px; line-height: 52px; letter-spacing: -0.03em; font-weight: 700; }
+  .text-headline-lg { font-size: 32px; line-height: 40px; letter-spacing: -0.02em; font-weight: 600; }
+  .text-headline-md { font-size: 24px; line-height: 32px; letter-spacing: -0.01em; font-weight: 600; }
+  .text-headline-sm { font-size: 20px; line-height: 28px; letter-spacing: 0em; font-weight: 600; }
+  .text-title-md { font-size: 16px; line-height: 24px; letter-spacing: 0em; font-weight: 600; }
+  .text-body-lg { font-size: 16px; line-height: 24px; letter-spacing: 0em; font-weight: 400; }
+  .text-body-md { font-size: 14px; line-height: 20px; letter-spacing: 0em; font-weight: 400; }
+  .text-body-sm { font-size: 12px; line-height: 16px; letter-spacing: 0.01em; font-weight: 400; }
+  .text-code-lg { font-size: 28px; line-height: 36px; letter-spacing: 0.15em; font-weight: 700; }
+  .text-code-md { font-size: 16px; line-height: 24px; letter-spacing: 0.05em; font-weight: 600; }
+  .text-code-timer { font-size: 20px; line-height: 28px; letter-spacing: 0.08em; font-weight: 700; }
+  .text-label-md { font-size: 12px; line-height: 16px; letter-spacing: 0.06em; font-weight: 500; }
+  .text-label-sm { font-size: 10px; line-height: 14px; letter-spacing: 0.08em; font-weight: 500; }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f131c;
+}
+::-webkit-scrollbar-thumb {
+  background: #262a33;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3d494c;
+}
