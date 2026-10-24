@@ -13209,8 +13209,88 @@
       "tokenHash": "3290889dec4e363d4f200b5d8d088e8513db385e02daa41bde05940f1d199bad",
       "pinHash": "01bad41af133895a311f8a36aba0fd112d0bd0de6e1e0a61a0a21e16c44abc47",
       "expiresAt": 1792837572608,
-      "revoked": false,
+      "revoked": true,
       "used": true,
+      "scopes": {
+        "bloodAllergies": true,
+        "medicationsImplants": true,
+        "chronicConditions": true,
+        "emergencyContacts": true,
+        "sensitiveHistory": false
+      }
+    },
+    {
+      "id": "8e7a566ea4bdcd37a7e5493d",
+      "patientId": "aarav-mehta",
+      "tokenHash": "3cc34db92426bb572078f3a20d42938f036b4a47aed08e59303e5214efebf141",
+      "pinHash": "bd01c8bed6c1800bced18c47ddb6785a3df1e7b5d376e6d60dc05a5d21d3a549",
+      "expiresAt": 1792838134556,
+      "revoked": true,
+      "used": false,
+      "scopes": {
+        "bloodAllergies": true,
+        "medicationsImplants": true,
+        "chronicConditions": true,
+        "emergencyContacts": true,
+        "sensitiveHistory": false
+      }
+    },
+    {
+      "id": "cdfe8b2944062bad8627bee4",
+      "patientId": "aarav-mehta",
+      "tokenHash": "2deae062ceacb87af7c7d1d88f702b0b23d96f817b4066b835ebcc7e2ddb9bf3",
+      "pinHash": "bfb9c0330ff333720cbb35d864b75e1c6fd617c3613048de36c91faf6462cad2",
+      "expiresAt": 1792838139144,
+      "revoked": true,
+      "used": false,
+      "scopes": {
+        "bloodAllergies": true,
+        "medicationsImplants": true,
+        "chronicConditions": true,
+        "emergencyContacts": true,
+        "sensitiveHistory": false
+      }
+    },
+    {
+      "id": "6b932296a10d312eed1a0122",
+      "patientId": "aarav-mehta",
+      "tokenHash": "6d8a865cc3d3ac623f532339c916610fe9bd6e84e2e2ee0697a7c8e8fafcad4b",
+      "pinHash": "51d4f0fff1a6d249d93e34afeebe31a75b89ece6278c9613f58c4bc920e516e1",
+      "expiresAt": 1792838229016,
+      "revoked": true,
+      "used": false,
+      "scopes": {
+        "bloodAllergies": true,
+        "medicationsImplants": true,
+        "chronicConditions": true,
+        "emergencyContacts": true,
+        "sensitiveHistory": false
+      }
+    },
+    {
+      "id": "b215d781af86710d777bfcdd",
+      "patientId": "aarav-mehta",
+      "tokenHash": "d1a95daa546a5c9040a3d6e8fed19bad1a3db6a98e25829cc9a323c943a290ff",
+      "pinHash": "2f5ba5187a519c1c6958853b73351d0a0a884eeca04deae5f8ec2f8f96824683",
+      "expiresAt": 1792838229190,
+      "revoked": true,
+      "used": false,
+      "scopes": {
+        "bloodAllergies": true,
+        "medicationsImplants": true,
+        "chronicConditions": true,
+        "emergencyContacts": true,
+        "sensitiveHistory": false
+      }
+    },
+    {
+      "id": "85f65157555ca42f9c646e6b",
+      "patientId": "aarav-mehta",
+      "tokenHash": "336f7dae68b420487f75aec8aa4b6e92c09ea2ae9844224fded5c407adcdc4eb",
+      "pinHash": "9f3c21277e3413297f0fdd0539009b13a50e72737b17d5c7ad5fe9a36f50b53c",
+      "expiresAt": 1792838229314,
+      "revoked": false,
+      "used": false,
       "scopes": {
         "bloodAllergies": true,
         "medicationsImplants": true,
@@ -13221,6 +13301,66 @@
     }
   ],
   "audit": [
+    {
+      "at": "2026-10-24T10:22:09.329Z",
+      "patientId": "aarav-mehta",
+      "event": "TOKEN_MINTED",
+      "actor": "patient-self"
+    },
+    {
+      "at": "2026-10-24T10:22:09.314Z",
+      "patientId": "aarav-mehta",
+      "event": "TOKEN_REPLACED",
+      "actor": "patient-self"
+    },
+    {
+      "at": "2026-10-24T10:22:09.204Z",
+      "patientId": "aarav-mehta",
+      "event": "TOKEN_MINTED",
+      "actor": "patient-self"
+    },
+    {
+      "at": "2026-10-24T10:22:09.190Z",
+      "patientId": "aarav-mehta",
+      "event": "TOKEN_REPLACED",
+      "actor": "patient-self"
+    },
+    {
+      "at": "2026-10-24T10:22:09.030Z",
+      "patientId": "aarav-mehta",
+      "event": "TOKEN_MINTED",
+      "actor": "patient-self"
+    },
+    {
+      "at": "2026-10-24T10:22:09.017Z",
+      "patientId": "aarav-mehta",
+      "event": "TOKEN_REPLACED",
+      "actor": "patient-self"
+    },
+    {
+      "at": "2026-10-24T10:20:39.162Z",
+      "patientId": "aarav-mehta",
+      "event": "TOKEN_MINTED",
+      "actor": "patient-self"
+    },
+    {
+      "at": "2026-10-24T10:20:39.145Z",
+      "patientId": "aarav-mehta",
+      "event": "TOKEN_REPLACED",
+      "actor": "patient-self"
+    },
+    {
+      "at": "2026-10-24T10:20:34.562Z",
+      "patientId": "aarav-mehta",
+      "event": "TOKEN_MINTED",
+      "actor": "patient-self"
+    },
+    {
+      "at": "2026-10-24T10:20:34.557Z",
+      "patientId": "aarav-mehta",
+      "event": "TOKEN_REPLACED",
+      "actor": "patient-self"
+    },
     {
       "at": "2026-10-24T10:11:25.237Z",
       "patientId": "aarav-mehta",
